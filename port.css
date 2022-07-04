@@ -1,0 +1,144 @@
+*{
+    margin: 0em;
+    padding: 0em;
+    
+}
+body{
+    background-image: url(backgrund.png) ;
+    background-size: cover;
+    cursor: pointer;
+}
+.navbar{
+    background-color: black;
+    width: 100%;
+    height: 55px;
+    margin-top: 0em;
+    position: fixed;
+   
+}
+
+.menu{
+    display: inline-flex;
+    
+}
+.main1 p{
+    font-family: monospace;
+    background-color: cornsilk;
+    color: rgb(18, 177, 250);
+    
+}
+.main1 h4{
+    color: rgb(18, 177, 250);
+    background-color: cornsilk;
+
+}
+.main2 p{
+    font-size: 18px;
+}
+.main3 p{
+    font-size: 18px;
+}
+.main4 p{
+    font-size: 18px;
+}
+.main5 p{
+    font-size: 18px;
+}
+.main6 p {
+    font-size: 18px;
+}
+.main6 h2 img{
+height: 100%;
+width: 100%;
+
+}
+.menuTo{
+    display: flex;
+    
+}
+.menuTo ul{
+    display: flex;
+    padding-top: 12px;
+    padding-left: 14px;
+    float: 50px right
+    
+    
+
+    
+}
+.menuTo ul li a{
+    color: blanchedalmond;
+    margin: 5px;
+    text-decoration: none;
+    display: block;
+    box-sizing: content-box;
+    
+}
+.menuTo ul li a:hover{
+    background: white;
+    color: black;
+
+}
+.menuTo ul li {
+    list-style: none;
+
+}
+.logo{
+    height: 2px;
+
+}
+
+.logo img{
+    height: 50px;
+    padding: 2px;
+    padding-left: 7px;
+    border-radius: 50%;
+}
+.main{
+    margin-top: 12px;
+    
+    height: 500px;
+}
+.h2{
+    padding-top: 100px;
+    color: ivory;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    size: 15px;
+    text-align: center;
+}
+.h2 img{
+    height: 240px;
+    width: 300px;
+    border-radius: 12px;
+}
+.links{
+    background-color: darkgray;
+    height: 50px;
+}
+
+.content p{
+    font-size: 12px;
+    margin: 3px;
+}
+.content ul{
+    text-decoration: none;
+   display: flex;
+    text-align: center;
+    padding: 18px;
+
+}
+.content ul li{
+
+    list-style: none;
+}
+.content ul li a{
+    color: white;
+    margin: 6px;
+    list-style: none;
+    text-decoration: none;
+}
+.content ul li a:hover{
+    color: black;
+    background: rgb(238, 236, 236);
+}
